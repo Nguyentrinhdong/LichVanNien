@@ -76,7 +76,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hiện tại:"
+                    android:text="Now:"
                     android:textColor="@color/bluelist"
                     android:textSize="13sp" />
 
@@ -147,7 +147,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -163,7 +163,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -185,7 +185,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -201,7 +201,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -248,7 +248,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bình Minh:"
+                            android:text="Sunrise:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -267,7 +267,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hoàng Hôn:"
+                            android:text="Sunset:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -295,7 +295,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thấp Nhất:"
+                            android:text="Min:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -314,7 +314,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cao Nhất:"
+                            android:text="Max:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -347,7 +347,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Sáng"
+                    android:text="Morning"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -386,7 +386,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -402,7 +402,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -425,7 +425,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -441,7 +441,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -474,7 +474,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Trưa"
+                    android:text="Afternoon"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -513,7 +513,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -529,7 +529,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -552,7 +552,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -568,7 +568,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -601,7 +601,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Chiều"
+                    android:text="Evening"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -640,7 +640,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -656,7 +656,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -679,7 +679,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -695,7 +695,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -728,7 +728,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Đêm"
+                    android:text="Overnight"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -767,7 +767,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -783,7 +783,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -806,7 +806,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -822,7 +822,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -875,7 +875,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bình Minh:"
+                            android:text="Sunrise:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -894,7 +894,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hoàng Hôn:"
+                            android:text="Sunset:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -922,7 +922,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thấp Nhất:"
+                            android:text="Min:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -941,7 +941,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cao Nhất:"
+                            android:text="Max:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -973,7 +973,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Sáng"
+                    android:text="Morning"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -1012,7 +1012,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1028,7 +1028,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1051,7 +1051,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1067,7 +1067,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1100,7 +1100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Trưa"
+                    android:text="Afternoon"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -1139,7 +1139,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1155,7 +1155,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1178,7 +1178,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1194,7 +1194,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1227,7 +1227,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Chiều"
+                    android:text="Evening"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -1266,7 +1266,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1282,7 +1282,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1305,7 +1305,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1321,7 +1321,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1354,7 +1354,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Đêm"
+                    android:text="Overnight"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -1393,7 +1393,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1409,7 +1409,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1432,7 +1432,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1448,7 +1448,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1501,7 +1501,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bình Minh:"
+                            android:text="Sunrise:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -1520,7 +1520,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hoàng Hôn:"
+                            android:text="Sunset:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -1548,7 +1548,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thấp Nhất:"
+                            android:text="Min:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -1567,7 +1567,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cao Nhất:"
+                            android:text="Max:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -1599,7 +1599,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Sáng"
+                    android:text="Morning"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -1638,7 +1638,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1654,7 +1654,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1677,7 +1677,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1693,7 +1693,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1726,7 +1726,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Trưa"
+                    android:text="Afternoon"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -1765,7 +1765,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1781,7 +1781,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1804,7 +1804,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1820,7 +1820,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1853,7 +1853,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Chiều"
+                    android:text="Evening"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -1892,7 +1892,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1908,7 +1908,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1931,7 +1931,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1947,7 +1947,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -1980,7 +1980,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Đêm"
+                    android:text="Overnight"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -2019,7 +2019,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2035,7 +2035,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2058,7 +2058,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2074,7 +2074,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2127,7 +2127,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bình Minh:"
+                            android:text="Sunrise:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2146,7 +2146,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hoàng Hôn:"
+                            android:text="Sunset:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2174,7 +2174,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thấp Nhất:"
+                            android:text="Min:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2193,7 +2193,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cao Nhất:"
+                            android:text="Max:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2225,7 +2225,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Sáng"
+                    android:text="Morning"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -2264,7 +2264,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2280,7 +2280,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2303,7 +2303,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2319,7 +2319,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2352,7 +2352,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Trưa"
+                    android:text="Afternoon"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -2391,7 +2391,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2407,7 +2407,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2430,7 +2430,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2446,7 +2446,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2479,7 +2479,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Chiều"
+                    android:text="Evening"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -2518,7 +2518,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2534,7 +2534,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2557,7 +2557,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2573,7 +2573,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2606,7 +2606,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Đêm"
+                    android:text="Overnight"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -2645,7 +2645,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2661,7 +2661,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2684,7 +2684,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2700,7 +2700,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2753,7 +2753,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bình Minh:"
+                            android:text="Sunrise:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2772,7 +2772,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hoàng Hôn:"
+                            android:text="Sunset:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2800,7 +2800,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thấp Nhất:"
+                            android:text="Min:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2819,7 +2819,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cao Nhất:"
+                            android:text="Max:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -2851,7 +2851,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Sáng"
+                    android:text="Morning"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -2890,7 +2890,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2906,7 +2906,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2929,7 +2929,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2945,7 +2945,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -2978,7 +2978,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Trưa"
+                    android:text="Afternoon"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -3017,7 +3017,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3033,7 +3033,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3056,7 +3056,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3072,7 +3072,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3105,7 +3105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Chiều"
+                    android:text="Evening"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -3144,7 +3144,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3160,7 +3160,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3183,7 +3183,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3199,7 +3199,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3232,7 +3232,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Đêm"
+                    android:text="Overnight"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -3271,7 +3271,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3287,7 +3287,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3310,7 +3310,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3326,7 +3326,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3379,7 +3379,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bình Minh:"
+                            android:text="Sunrise:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -3398,7 +3398,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hoàng Hôn:"
+                            android:text="Sunset:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -3426,7 +3426,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thấp Nhất:"
+                            android:text="Min:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -3445,7 +3445,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cao Nhất:"
+                            android:text="Max:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -3477,7 +3477,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Sáng"
+                    android:text="Morning"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -3516,7 +3516,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3532,7 +3532,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3555,7 +3555,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3571,7 +3571,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3604,7 +3604,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Trưa"
+                    android:text="Afternoon"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -3643,7 +3643,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3659,7 +3659,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3682,7 +3682,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3698,7 +3698,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3731,7 +3731,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Chiều"
+                    android:text="Evening"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -3770,7 +3770,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3786,7 +3786,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3809,7 +3809,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3825,7 +3825,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3858,7 +3858,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Đêm"
+                    android:text="Overnight"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -3897,7 +3897,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3913,7 +3913,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3936,7 +3936,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -3952,7 +3952,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4005,7 +4005,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bình Minh:"
+                            android:text="Sunrise:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -4024,7 +4024,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hoàng Hôn:"
+                            android:text="Sunset:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -4052,7 +4052,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Thấp Nhất:"
+                            android:text="Min:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -4071,7 +4071,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Cao Nhất:"
+                            android:text="Max:"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -4103,7 +4103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Sáng"
+                    android:text="Morning"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -4142,7 +4142,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4158,7 +4158,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4181,7 +4181,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4197,7 +4197,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4230,7 +4230,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Trưa"
+                    android:text="Afternoon"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -4269,7 +4269,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4285,7 +4285,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4308,7 +4308,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4324,7 +4324,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4357,7 +4357,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Chiều"
+                    android:text="Evening"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -4396,7 +4396,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4412,7 +4412,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4435,7 +4435,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4451,7 +4451,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4484,7 +4484,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Đêm"
+                    android:text="Overnight"
                     android:textColor="@color/bluelist"
                     android:textSize="16sp" />
 
@@ -4523,7 +4523,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Độ ẩm:"
+                            android:text="Humidity:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4539,7 +4539,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Áp suất:"
+                            android:text="Pressure:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4562,7 +4562,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tầm nhìn:"
+                            android:text="Visibility:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
@@ -4578,7 +4578,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:text="Tốc độ gió:"
+                            android:text="Wind:"
                             android:textColor="@color/black"
                             android:textSize="10sp" />
 
