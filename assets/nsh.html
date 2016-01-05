@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+            <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<script type="text/javascript" src="file:///android_asset/jquery.min.js"></script>
+		<script type="text/javascript">
+$(function () {
+    var chart;
+  var tritueData={tritueData};
+  var suckhoeData={suckhoeData};
+  var tinhcamData={tinhcamData};
+  var trucgiacData={trucgiacData};
+  var thammyData={thammyData};
+  var tinhthanData={tinhthanData};
+  var mydate={mydate};
+  var mymonth={mymonth};
+  var myyear={myyear};
+    $(document).ready(function() {
+                      
+        chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container',
+                backgroundColor: 'transparent', //transparent #333333
+                zoomType: null,
+                type: 'line',
+                                     
+                width: 282,
+                height: 276,
+                marginBottom: 0,
+                marginTop: -29,
+                marginLeft: 31,
+                marginRight: 0
+            },
+            title: {
+                text: ''
+            },
+
+//truc x
+            xAxis: {
+                title: {
+                    text: null
+                },
+                labels: {
+                    enabled: false,
+                    formatter: function() {
+                        var d = new Date();
+                        if(d.getTime() == this.value)
+                        return Highcharts.dateFormat('<b><font color=red> %d/%m </font></b>', this.value);
+                                     //else
+                        return Highcharts.dateFormat('<b>%d/%m</b>', this.value);
+                    }
+                },
+                lineWidth: 0,
+                lineColor: 'transparent'
+            },
+                                     
+//truc y
+            yAxis: {
+                title: {
+                    text: ''
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0,
+                minorGridLineWidth: 0
+            },
+
+//option serial
+            plotOptions: {
+                series: {
+                    showInLegend: false, //không cho hiển thị các label name cua serial
+                    marker: {
+                        enabled: false //không cho hiển thị các chấm trên line
+                    },
+                    enableMouseTracking: false, //không cho chạm hiển thị dữ liệu trên line
+                    animation: false    //không cho hiển thị animation vẽ line
+                }
+            },
+                                     
+//series and data
+            series: [{
+                        name: 'Trí tuệ',
+                        data:tritueData,
+                        pointStart: Date.UTC(myyear, mymonth, mydate),
+                        pointInterval: 24 * 3600 * 1000, // one day
+                        lineWidth: 2,
+                        color: '#e74c3c',
+                        tritueHidden
+                     },
+                     {
+                        name: 'Sức khoẻ',
+                        data:suckhoeData,
+                        pointStart: Date.UTC(myyear, mymonth, mydate),
+                        pointInterval: 24 * 3600 * 1000, // one day
+                        lineWidth: 2,
+                        color: '#2fcc72',
+                        suckhoeHidden
+                     },
+                     {
+                        name: 'Tình Cảm',
+                        data:tinhcamData,
+                        pointStart: Date.UTC(myyear, mymonth, mydate),
+                        pointInterval: 24 * 3600 * 1000, // one day
+                        lineWidth: 2,
+                        color: '#3498db',
+                        tinhcamHidden
+                     },
+                     {
+                        name: 'Trực Giác',
+                        data:trucgiacData,
+                        pointStart: Date.UTC(myyear, mymonth, mydate),
+                        pointInterval: 24 * 3600 * 1000, // one day
+                        lineWidth: 2,
+                        color: '#ff0299',
+                        trucgiacHidden
+                     },
+                     {
+                        name: 'Thẩm Mỹ',
+                        data:thammyData,
+                        pointStart: Date.UTC(myyear, mymonth, mydate),
+                        pointInterval: 24 * 3600 * 1000, // one day
+                        lineWidth: 2,
+                        color: '#ac76c3',
+                        thammyHidden
+                     },
+                     {
+                        name: 'Tinh Thần',
+                        data:tinhthanData,
+                        pointStart: Date.UTC(myyear, mymonth, mydate),
+                        pointInterval: 24 * 3600 * 1000, // one day
+                        lineWidth: 2,
+                        color: '#f9af1a',
+                        tinhthanHidden
+                     }]
+        });
+               
+//cho ẩn các đường line
+<!--        chart.series[2].hide();-->
+                      
+    });
+  Highcharts.setOptions({
+                        lang: {
+                        months: ['Tháng Một', 'Tháng Hai', 'Tháng Ba', 'Tháng Bốn', 'Tháng Năm', 'Tháng Sáu', 
+                                 'Tháng Bẩy', 'Tháng Tám', 'Tháng Chín', 'Tháng Mười', 'Tháng Mười Một', 'Tháng Mười Hai'],
+                        weekdays: ['Chủ Nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'],
+                        shortMonths:['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12']
+                        } });
+
+});
+		</script>
+	</head>
+	<body >
+<script src="file:///android_asset/highcharts.js"></script>
+<div id="container" style="width: 282px; height: 276px"></div>
+
+	</body>
+</html>

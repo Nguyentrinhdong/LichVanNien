@@ -1,0 +1,338 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tab2ll_batdau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Day"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Month"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Year"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Hour"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Minute"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/tab2day_batdau"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/tab2month_batdau"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/tab2year_batdau"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/tab2hour_bd"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/tab2minute_bd"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/tab2rdgButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <RadioButton
+            android:id="@+id/tab2rb_duongLich_demNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/btn_selector_demngay"
+            android:singleLine="true"
+            android:text="Solar Calendar"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/tab2rb_amLich_demNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/btn_selector_demngay"
+            android:singleLine="true"
+            android:text="Lunar Calendar"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_large" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/tab2line3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_dimen"
+        android:background="@drawable/list_division" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tab2textView1"
+             android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="left"
+            android:text="Year"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tab2ednam"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/bluelist" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tab2textView2"
+                     android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Month"
+                     android:gravity="left"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tab2edthang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/bluelist" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tab2line4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_dimen"
+        android:background="@drawable/list_division" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tab2textView4"
+                android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Week"
+                     android:gravity="left"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tab2edtuan"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/bluelist" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tab2textView6"
+                     android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Day"
+                     android:gravity="left"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tab2edngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/bluelist" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tab2line5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_dimen"
+        android:background="@drawable/list_division" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tab2textView5"
+                 android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Hour"
+                     android:gravity="left"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tab2edgio"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/bluelist" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tab2textView7"
+           android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Minute"
+                     android:gravity="left"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tab2edphut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/bluelist" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tab2textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:text="Results" />
+
+    <TextView
+        android:id="@+id/tab2tvketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:text="TextView" />
+
+</LinearLayout>

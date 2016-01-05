@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_gridview"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/item_gridview"
+    android:alpha="0.7"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_sukien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/sukien_icon2" />
+
+    <TextView
+        android:id="@+id/calendar_day_gridcell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="1"
+        android:textColor="@color/gray2"
+        android:textSize="@dimen/text_size_duong_lichthang"
+        />
+
+    <ImageView
+        android:id="@+id/iv_hacHoangdDao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/hacdao_icon_lichthang" />
+
+    <TextView
+        android:id="@+id/tv_amLich_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="12"
+        android:textColor="@color/my_spinner_text_color"
+        android:textSize="@dimen/text_size_am_lichthang"
+        android:paddingRight="5dp"/>
+</RelativeLayout>

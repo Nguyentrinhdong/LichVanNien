@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_nameSuKien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="Tên Sự Kiện:" />
+
+    <TextView
+        android:id="@+id/tv_diaDiemSuKien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa Điểm:"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/text_size"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/tv_chiTietSuKien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chi Tiết Sự Kiện"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/tv_thoiGianSuKien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="Thời gian : Từ Ngày 12/3/2015 - Đến Ngày 13/3/2015" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Đóng"
+        android:textSize="@dimen/text_size"
+        android:gravity="center"
+        android:background="@drawable/shape_button_gui"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+</LinearLayout>

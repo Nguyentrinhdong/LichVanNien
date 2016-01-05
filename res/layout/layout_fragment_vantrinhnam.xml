@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn ngày tháng năm sinh dương lịch"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="@dimen/text_size_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+            android:id="@+id/day_vtn"
+            android:layout_height="150dip"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp" />
+
+        <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+            android:id="@+id/month_vtn"
+            android:layout_height="150dip"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp" />
+
+        <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+            android:id="@+id/year_vtn"
+            android:layout_height="150dip"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_ketqua_vantrinhnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xemketqua_button2"
+        android:padding="10dp"
+        android:layout_gravity="center" />
+</LinearLayout>

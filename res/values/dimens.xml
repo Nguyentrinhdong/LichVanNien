@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="item_gridview">40dp</dimen>
+    <dimen name="height_gridview">280dp</dimen>
+    <dimen name="height_viewpager">300dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="text_thoitiet">12sp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <dimen name="ngay_lichngay">100sp</dimen>
+    <dimen name="thang_nam_lichngay">16dp</dimen>
+    <dimen name="layout_item_list">50dp</dimen>
+    <dimen name="layout_viewpager">350dp</dimen>
+    <dimen name="text_size">13sp</dimen>
+    <dimen name="text_size_am">20sp</dimen>
+    <dimen name="text_size_large">15sp</dimen>
+    <dimen name="text_tacgia">8sp</dimen>
+    <dimen name="text_size_webview">12sp</dimen>
+    <dimen name="layout_lichngay">300dp</dimen>
+    <dimen name="text_size_duong_lichthang">12sp</dimen>
+    <dimen name="text_size_am_lichthang">10sp</dimen>
+    <dimen name="text_size_large2">20sp</dimen>
+    <dimen name="khoangcach">7dp</dimen>
+    <!-- Not ruoi -->
+    <dimen name="text_size_notruoi">10dp</dimen>
+    <dimen name="text_size_ynghianotruoi">13dp</dimen>
+    <!-- Đường kẻ chân -->
+    <dimen name="line_dimen">0.5dp</dimen>
+
+</resources>

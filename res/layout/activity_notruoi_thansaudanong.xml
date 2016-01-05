@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottom"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/rb_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_thu_menu"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Tử Vi Trọn Đời"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large" />
+
+    </RelativeLayout>
+
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/adView1" -->
+<!--         android:layout_below="@+id/rl_top" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" /> -->
+
+    <AbsoluteLayout
+        android:id="@+id/abs_thansaudanong"
+        android:layout_width="177dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sau_nam"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButton35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="83dp"
+            android:layout_y="72dp"
+            android:text="35"
+            android:button="@null"
+            android:textSize="@dimen/text_size_notruoi"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_notruoi_selector" />
+
+        <RadioButton
+            android:id="@+id/radioButton17_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="204dp"
+            android:layout_y="232dp"
+            android:text="17"
+            android:checked="false"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_notruoi"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_notruoi_selector" />
+
+        <RadioButton
+            android:id="@+id/radioButton37_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="98dp"
+            android:layout_y="90dp"
+            android:text="37"
+            android:button="@null"
+            android:textSize="@dimen/text_size_notruoi"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_notruoi_selector" />
+
+        <RadioButton
+            android:id="@+id/radioButton36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="84dp"
+            android:layout_y="96dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="36"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton37_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="70dp"
+            android:layout_y="90dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="37"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton49_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="59dp"
+            android:layout_y="98dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="49"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton38_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="68dp"
+            android:layout_y="112dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="38"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton50_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="54dp"
+            android:layout_y="129dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="50"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton52_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="176dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="52"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton53_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="190dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="53"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton49_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="107dp"
+            android:layout_y="102dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="49"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton38_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="96dp"
+            android:layout_y="112dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="38"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton51_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="126dp"
+            android:layout_y="150dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="51"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton50_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="112dp"
+            android:layout_y="127dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="50"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton52_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="138dp"
+            android:layout_y="173dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="52"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton53_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="148dp"
+            android:layout_y="187dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="53"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton39_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="134dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="39"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton39_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="88dp"
+            android:layout_y="134dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="39"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton43_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="69dp"
+            android:layout_y="189dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="43"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton43_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="92dp"
+            android:layout_y="190dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="43"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton44_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="68dp"
+            android:layout_y="210dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="44"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton44_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="91dp"
+            android:layout_y="210dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="44"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton45_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="68dp"
+            android:layout_y="235dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="45"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton45_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="96dp"
+            android:layout_y="234dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="45"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton47_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="71dp"
+            android:layout_y="292dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="47"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton47_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="105dp"
+            android:layout_y="291dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="47"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton48_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="321dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="48"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton48_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="111dp"
+            android:layout_y="319dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="48"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="80dp"
+            android:layout_y="150dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="40"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton41_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="67dp"
+            android:layout_y="162dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="41"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton41_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="90dp"
+            android:layout_y="162dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="41"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="79dp"
+            android:layout_y="176dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="42"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton46_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="68dp"
+            android:layout_y="257dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="46"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton46_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="99dp"
+            android:layout_y="256dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="46"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/radioButton51_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="43dp"
+            android:layout_y="147dp"
+            android:background="@drawable/btn_notruoi_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="51"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+    </AbsoluteLayout>
+
+    <ScrollView
+        android:layout_below="@+id/abs_thansaudanong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_title_detail_notruoithansaudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:text="Chọn nốt ruồi để xem ý nghĩa!"
+                android:layout_gravity="center"
+                android:textColor="@color/black" />
+            
+             <WebView
+                android:id="@+id/wv_vanKhan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" />
+
+<!--             <TextView -->
+<!--                 android:id="@+id/tv_detail_notruoithansaudo" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:gravity="center" -->
+<!--                 android:layout_gravity="center" -->
+<!--                 android:textColor="@color/black" -->
+<!--                 android:textSize="@dimen/text_size_ynghianotruoi" /> -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Select your zodiac sign"
+        android:textColor="@color/bluelist"
+        android:textSize="@dimen/text_size_large2" />
+
+    <GridView
+        android:id="@+id/gvcunghoangdao"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="5dp"
+        android:numColumns="3" >
+    </GridView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/content_frame"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/unitid" >
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

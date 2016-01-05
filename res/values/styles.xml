@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyCustomTheme" parent="AppTheme">
+        <!--<item name="android:windowActionBar">false</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:popupMenuStyle">@style/PopupMenu.MyAppTheme</item>-->
+        <item name="android:textViewStyle">@style/Theme.AppTheme.textView</item>
+    </style>
+
+    <style name="Theme.AppTheme.textView" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/yellowish</item>
+    </style>
+
+    <style name="PopupMenu.MyAppTheme" parent="android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">#E6E0D0</item>
+    </style>
+    <style name="SpinnerStyle" parent="Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:dropDownSelector">@android:color/transparent</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+    </style>
+
+</resources>

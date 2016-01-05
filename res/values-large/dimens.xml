@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="layout_item_list">100dp</dimen>
+    <dimen name="list_padding">13dp</dimen>
+    <dimen name="text_thoitiet">16sp</dimen>
+    <dimen name="ngay_lichngay">170sp</dimen>
+    <dimen name="thang_nam_lichngay">25dp</dimen>
+    <dimen name="layout_viewpager">500dp</dimen>
+    <dimen name="text_tacgia">12sp</dimen>
+    <dimen name="text_size_am">40sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_webview">14sp</dimen>
+    <dimen name="layout_lichngay">500dp</dimen>
+    <dimen name="item_gridview">50dp</dimen>
+    <dimen name="height_gridview">350dp</dimen>
+    <dimen name="height_viewpager">400dp</dimen>
+    <dimen name="text_size_large">25sp</dimen>
+    <dimen name="text_size_duong_lichthang">20sp</dimen>
+    <dimen name="text_size_am_lichthang">18sp</dimen>
+    <dimen name="text_size_large2">30sp</dimen>
+    <dimen name="khoangcach">10dp</dimen>
+
+</resources>

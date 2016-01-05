@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+
+    <ImageView
+        android:id="@+id/imgxocque"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ll_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/xocque0" />
+
+<!--     <TextView -->
+<!--         android:id="@+id/textView1" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@+id/imgxocque" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_marginTop="26dp" -->
+<!--         android:text="Shake to get your hexagram" -->
+<!--         android:textColor="@color/black" -->
+<!--         android:textSize="@dimen/text_size_large" /> -->
+
+    <ImageView
+        android:id="@+id/imgthanhque"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ll_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/thanhque" />
+
+    <TextView
+        android:id="@+id/tvketqua"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ll_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large" />
+
+    <TextView
+        android:id="@+id/tvnhanxet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:layout_below="@+id/ll_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large" />
+
+</RelativeLayout>

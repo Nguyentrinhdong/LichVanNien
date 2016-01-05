@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/prevMonth"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/month_back" />
+
+            <TextView
+                android:id="@+id/currentMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <ImageView
+                android:id="@+id/nextMonth"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/month_next" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="6dp"
+            android:alpha="0.9"
+            android:background="@color/thu"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:weightSum="7" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="CN"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_duong_lichthang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Thứ 2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_duong_lichthang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Thứ 3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_duong_lichthang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Thứ 4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_duong_lichthang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Thứ 5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_duong_lichthang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Thứ 6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_duong_lichthang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Thứ 7"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_duong_lichthang" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gr_calendarGridView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_gridview"
+            android:layout_below="@+id/ll_thu"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:horizontalSpacing="1dp"
+            android:numColumns="7"
+            android:scrollbars="none"
+            android:verticalSpacing="1dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_hachoangdao_sukien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gr_calendarGridView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:drawableLeft="@drawable/lichthang3"
+                android:paddingLeft="5dp"
+                android:text="Auspicious"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/lichthang2"
+                android:paddingLeft="5dp"
+                android:text="Inauspicious"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@drawable/lichthang"
+                android:paddingLeft="5dp"
+                android:text="Event"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ngaythangnam_amlich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_hachoangdao_sukien"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.2dp"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Day"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/tv_ngayAmLich_thang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="17"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_am" />
+
+                <TextView
+                    android:id="@+id/tv_ngayAmLichCanChi_thang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Bính Thìn"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_large" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.2dp"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Month"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/tv_thangAmLich_thang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="01"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_am" />
+
+                <TextView
+                    android:id="@+id/tv_thangAmLichCanChi_thang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Bính Dần"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_large" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/tv_namAmLich_thang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="2015"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_am" />
+
+                <TextView
+                    android:id="@+id/tv_namAmLichCanChi_thang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ất Mùi"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_large" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_ngaythangnam_amlich"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_chitietNgayThang"
+                android:layout_width="155dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bottom"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Full details"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/tv_themSukien_thang"
+                android:layout_width="155dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bottom"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Add an event"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

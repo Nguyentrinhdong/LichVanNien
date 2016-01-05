@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray2">#F3F3F3</color>
+    <color name="gray3">#E5E5E5</color>
+    <color name="thu">#F3F3F3</color>
+    <color name="select">#4A7E45</color>
+    <color name="yellowish">#C4AC5C</color>
+    <color name="bluelist">#4EA361</color>
+    <color name="graylist">#B2B2B2</color>
+    <color name="menu">#333333</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00CC00</color>
+    <color name="blue2">#529750</color>
+        <color name="blue3">#139D4D</color>
+    <color name="symptom_color_selected">#003366</color>
+    <color name="reaction_color_selected">#003366</color>
+    <color name="static_text_color">#003366</color>
+    <color name="journal_entry_listitem_text_color">#003366</color>
+    <color name="note_text_disabled">#333333</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#6699FF</color>
+    <color name="sky">#0099CC</color>
+    <color name="gray">#808080</color>
+    <color name="orrange">#e33d1b</color>
+    <color name="darkorrange">#cc2303</color>
+    <color name="my_spinner_text_color">#666666</color>
+    <color name="maunen">#F3F3F3</color>
+    
+<!--     nhip sinh hoc -->
+<color name="nsh1">#2ecd73</color>
+<color name="nsh2">#fbb11c</color>
+<color name="nsh3">#3598db</color>
+<color name="nsh4">#ac76c2</color>
+<color name="nsh5">#e76855</color>
+<color name="nsh6">#ff0299</color>
+<color name="tb">#2ea35d</color>
+
+</resources>

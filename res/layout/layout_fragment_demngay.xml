@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="Chọn ngày bắt đầu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/day_batdau"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/month_batdau"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/year_batdau"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="Chọn ngày kết thúc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/day_ketthuc"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/month_ketthuc"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+            <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+                android:id="@+id/year_ketthuc"
+                android:layout_width="0dp"
+                android:layout_height="150dip"
+                android:layout_weight="1"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rdgButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <RadioButton
+                android:id="@+id/rb_duongLich_demNgay"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:background="@null"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/btn_selector_demngay"
+                android:singleLine="true"
+                android:text="Dương Lịch"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <RadioButton
+                android:id="@+id/rb_amLich_demNgay"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:button="@null"
+                android:checked="false"
+                android:drawableLeft="@drawable/btn_selector_demngay"
+                android:singleLine="true"
+                android:text="Âm Lịch"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_large" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Kết quả"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/tv_demngay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/blue3"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="Ngày"
+                android:textColor="@color/bluelist"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

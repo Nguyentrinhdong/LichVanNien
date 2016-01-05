@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imagechd"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/bachduong" />
+
+    <TextView
+        android:id="@+id/tvten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagechd"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/black"
+        android:text="Bạch Dương" />
+
+    <TextView
+        android:id="@+id/tvngay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imagechd"
+        android:layout_below="@+id/tvten"
+        android:gravity="center"
+        android:text="21/3 - 20/4"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size" />
+
+</RelativeLayout>

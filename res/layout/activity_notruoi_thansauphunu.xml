@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottom"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/rb_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_thu_menu"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Tử Vi Trọn Đời"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large" />
+    </RelativeLayout>
+
+    <!-- <RelativeLayout -->
+    <!-- android:id="@+id/adView1" -->
+    <!-- android:layout_below="@+id/rl_top" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" /> -->
+
+    <AbsoluteLayout
+        android:id="@+id/abs_thansauphunu"
+        android:layout_width="177dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/danba_thansau" >
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="82dp"
+            android:layout_y="94dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="54"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi37_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="69dp"
+            android:layout_y="93dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="37"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi37_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="94dp"
+            android:layout_y="93dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="37"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi49_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="70dp"
+            android:layout_y="105dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="49"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi39_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="70dp"
+            android:layout_y="116dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="39"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi39_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="92dp"
+            android:layout_y="116dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="39"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi49_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="92dp"
+            android:layout_y="104dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="49"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi41_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="74dp"
+            android:layout_y="150dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="41"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi41_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="91dp"
+            android:layout_y="150dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="41"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="82dp"
+            android:layout_y="162dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="40"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="82dp"
+            android:layout_y="176dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="55"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi56_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="70dp"
+            android:layout_y="186dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="56"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi56_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="93dp"
+            android:layout_y="187dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="56"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi58_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="70dp"
+            android:layout_y="208dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="58"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi58_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="92dp"
+            android:layout_y="209dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="58"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi59_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="71dp"
+            android:layout_y="228dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="59"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi59_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="95dp"
+            android:layout_y="228dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="59"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi60_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="72dp"
+            android:layout_y="256dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="60"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi60_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="258dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="60"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi61_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="74dp"
+            android:layout_y="279dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="61"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi61_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="104dp"
+            android:layout_y="278dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="61"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi50_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="56dp"
+            android:layout_y="114dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="50"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi51_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="51dp"
+            android:layout_y="129dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="51"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi52_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="42dp"
+            android:layout_y="146dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="52"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi57_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="34dp"
+            android:layout_y="162dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="57"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi57_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="129dp"
+            android:layout_y="159dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="57"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi53_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="145dp"
+            android:layout_y="178dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="53"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi39_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="124dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="39"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi50_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="105dp"
+            android:layout_y="114dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="50"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi51_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="112dp"
+            android:layout_y="127dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="51"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi52_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="144dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="52"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+
+        <RadioButton
+            android:id="@+id/rb_thansauphunu_noruoi53_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="22dp"
+            android:layout_y="180dp"
+            android:background="@drawable/nr"
+            android:button="@null"
+            android:gravity="center"
+            android:text="53"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_notruoi" />
+    </AbsoluteLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abs_thansauphunu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/tv_title_detail_notruoitspn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Chọn nốt ruồi để xem ý nghĩa!"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <WebView
+                android:id="@+id/wv_vanKhan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" />
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/tv_detail_notruoitspn" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:gravity="center" -->
+            <!-- android:layout_gravity="center" -->
+            <!-- android:textColor="@color/black" -->
+            <!-- android:textSize="@dimen/text_size_ynghianotruoi" /> -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

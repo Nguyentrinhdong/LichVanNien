@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Chọn thông tin cần thiết"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Năm Sinh"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Năm Xem"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Giới Tính"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal" >
+
+        <!-- <bhmedia.com.lichvannien2015.ui.wheel.WheelView -->
+        <!-- android:id="@+id/day_vtt" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="150dip" -->
+        <!-- android:layout_weight="0.5" -->
+        <!-- android:padding="5dp" /> -->
+
+        <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+            android:id="@+id/year1_xsgh"
+            android:layout_width="wrap_content"
+            android:layout_height="150dip"
+            android:layout_weight="1"
+            android:padding="5dp" />
+
+        <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+            android:id="@+id/year2_xsgh"
+            android:layout_width="wrap_content"
+            android:layout_height="150dip"
+            android:layout_weight="1"
+            android:padding="5dp" />
+
+        <com.bhmedia.lichvannien2016.ui.wheel.WheelView
+            android:id="@+id/gioitinh_xsgh"
+            android:layout_width="wrap_content"
+            android:layout_height="150dip"
+            android:layout_weight="0.7"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/btn_pre_year" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:onClick="goToPreYear" -->
+        <!-- android:padding="5dp" -->
+        <!-- android:src="@drawable/ic_pre" /> -->
+
+        <ImageView
+            android:id="@+id/iv_ketqua_xsgh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/xemketqua_button2" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:text="Năm" -->
+        <!-- android:textColor="@color/white" -->
+        <!-- android:visibility="gone" -->
+        <!-- android:textSize="20sp" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/tv_current_year_vtt" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:padding="5dp" -->
+        <!-- android:text="2015" -->
+        <!-- android:textColor="@color/white" -->
+        <!-- android:visibility="gone" -->
+        <!-- android:textSize="20sp" /> -->
+
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/btn_next_year" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:onClick="goToNextYear" -->
+        <!-- android:padding="5dp" -->
+        <!-- android:src="@drawable/ic_next" -->
+        <!-- android:visibility="gone" -->
+        <!-- /> -->
+    </LinearLayout>
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/edkq" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:ems="10" > -->
+
+
+    <!-- <requestFocus /> -->
+    <!-- </EditText> -->
+
+</LinearLayout>

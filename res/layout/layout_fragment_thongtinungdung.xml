@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon2016" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Lịch Vạn Niên 2016"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_developer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Phiên bản : 1.0"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/tv_developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Nhà phát triển : BHMedia"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="support.ios@bhmedia.vn"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Thông tin về ứng dụng"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <com.bhmedia.lichvannien2016.ui.scrolltextview.ScrollingTextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.7"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="Ứng dụng &quot;Lịch Vạn Niên 2016&quot; không chỉ cung cấp cho người dùng thông tin lịch ngày, lịch tháng, đổi ngày âm dương, xem ngày tốt... mà còn cung cấp nhiều thông tin tiện ích khác như: xem ngũ hành, vận trình tháng - năm,...Đặc biệt ứng dụng được thiết kế với giao diện thân thiện, dễ sử dụng, tốc độ nhanh. Một số đặc điểm nổi bật trong ứng dụng:\n- Xem lịch âm dương\n- Xem can, chi của ngày, tháng, năm\n- Xem giờ hoàng đạo trong ngày, xem tiết khí, hướng xuất hành\n- Đặt lịch và quản lý sự kiện theo ngày hiện tại được đồng bộ hóa với Calendar của hệ thống\n- Và một số chức năng khác...\nMọi ý kiến đóng góp xin gửi về hòm thư : support.ios@binhhoang.com\nTrân trọng ! \nBHMEDIA ANDROID TEAM"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size" />
+
+</LinearLayout>
